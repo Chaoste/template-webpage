@@ -1,0 +1,21 @@
+{
+  "name": "template-webpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "nodemon": "^1.19.2",
+    "postcss": "^7.0.18"
+  },
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie < 9"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "watch": "nodemon ./scripts/build.js --watch src/styles-unprefixed.css"
+  }
+}

@@ -1,0 +1,31 @@
+header.masthead {
+  background: rgb(255, 238, 204);
+  padding: 10rem 0 calc(10rem - 72px);
+}
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    /* height: 100vh; */
+    min-height: 30rem;
+    padding: 72px 0 0;
+  }
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  background: rgba(255, 238, 204, 0.6);
+  padding: 2rem;
+  min-height: 10rem;
+}
